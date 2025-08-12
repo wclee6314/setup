@@ -3,7 +3,7 @@
 # define directories
 HOME_DIR="/home/jovyan"
 WORKSPACE_DIR="/home/jovyan/workspace"
-MODEL_DIR="/home/jovyan/home-wclee-model"
+MODEL_DIR="/home/jovyan/model-wclee"
 
 # check if the directories exist
 if [ ! -d "$HOME_DIR" ]; then

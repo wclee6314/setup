@@ -12,3 +12,5 @@ wget https://repo.anaconda.com/miniconda/$F && \
 bash $F -b -p $HOME/miniconda3 && \
 $HOME/miniconda3/bin/conda init "$(basename "$SHELL")" && \
 exec $SHELL -l
+# delete Miniconda installer
+rm $F
