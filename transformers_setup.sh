@@ -19,4 +19,4 @@ git clone https://github.com/huggingface/transformers.git
 
 # install transformers
 cd transformers
-pip install -e .
+pip install -e .[torch]
