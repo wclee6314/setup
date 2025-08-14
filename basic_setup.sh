@@ -13,8 +13,4 @@ bash $F -b -p $HOME/miniconda3 && \
 $HOME/miniconda3/bin/conda init "$(basename "$SHELL")" && \
 exec $SHELL -l
 # delete Miniconda installer
-rm $F
-
-# git config
-git config --global user.name "wclee6314"
-git config --global user.email "wclee@dnotitia.com"
+rm -f $F
