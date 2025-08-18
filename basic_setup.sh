@@ -14,3 +14,7 @@ $HOME/miniconda3/bin/conda init "$(basename "$SHELL")" && \
 exec $SHELL -l
 # delete Miniconda installer
 rm -f $F
+
+#
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main >/dev/null 2>&1 || true
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r    >/dev/null 2>&1 || true
