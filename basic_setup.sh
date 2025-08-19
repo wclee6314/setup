@@ -18,3 +18,8 @@ rm -f $F
 #
 conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main >/dev/null 2>&1 || true
 conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r    >/dev/null 2>&1 || true
+
+# 
+pip install torch
+pip install pynvml
+pip install numpy
