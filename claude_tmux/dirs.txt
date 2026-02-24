@@ -1,0 +1,6 @@
+# Claude Multi 디렉토리 목록 
+# 한 줄에 하나씩, #으로 주석 처리 가능
+
+/home/jovyan/workspace/lwcworld/leap
+/home/jovyan/workspace/lwcworld/neurosym_planner
+/home/jovyan/workspace/dnload/RSLA
