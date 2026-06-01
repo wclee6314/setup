@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tmux new-session:*)",
+      "Bash(tmux ls:*)",
+      "Bash(python3:*)",
+      "Bash(pip install:*)",
+      "Bash(pip list:*)",
+      "Bash(which python3:*)",
+      "Read(//usr/bin/**)",
+      "Read(//opt/**)",
+      "Bash(/usr/bin/python3.12 -c \"import torch; print\\(torch.__version__\\); import pynvml; print\\('pynvml ok'\\)\" 2>&1)",
+      "Bash(tmux kill-session:*)",
+      "Bash(sleep:*)",
+      "Bash(tmux capture-pane:*)",
+      "Bash(tmux list-sessions:*)",
+      "Bash(which python:*)",
+      "Bash(PIP_CONSTRAINT=/dev/null pip install torch --index-url https://download.pytorch.org/whl/cu124 2>&1 | tail -10)",
+      "Bash(PIP_CONSTRAINT=/dev/null pip install pynvml 2>&1 | tail -5)",
+      "Bash(tmux send-keys:*)",
+      "Bash(python3.12 -c \"import torch; import pynvml; print\\('OK'\\)\" 2>&1)",
+      "Bash(tmux set-option:*)"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+# Claude Multi 디렉토리 목록 
+# 한 줄에 하나씩, #으로 주석 처리 가능
+
+/home/jovyan/workspace/dnload/ai-turbo-rag
+/home/jovyan
